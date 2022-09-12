@@ -1,0 +1,155 @@
+@media screen and (max-width: 550px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    margin: 5px;
+  }
+  .nav-items li {
+    display: none;
+  }
+  .nav-items div i {
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .nav {
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 10vh;
+  }
+  .nav img {
+    height: 40px;
+  }
+  .nav button {
+    display: none;
+  }
+  .first-section {
+    flex-direction: column-reverse;
+    padding: 20px;
+    column-gap: 0px;
+    row-gap: 15px;
+  }
+  .first-section-image img {
+    height: 250px;
+  }
+  .first-section-content {
+    text-align: center;
+  }
+  .first-section-content h1 {
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 8px;
+  }
+  .second-section {
+    flex-direction: column;
+    padding: 30px 60px;
+    row-gap: 15px;
+  }
+  .second-section-content h2,
+  li {
+    padding: 0px;
+  }
+  .second-section-content h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .second-section-content ul {
+    text-align: center;
+  }
+  .second-section-content li {
+    font-size: 18px;
+    border: 1px solid #7030cc;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0px 1px #7030cc;
+    padding: 20px 10px;
+  }
+  .second-section-content li h3 {
+    font-size: 25px;
+  }
+  .second-section div img {
+    height: 270px;
+  }
+  .third-section-cards {
+    flex-direction: column;
+  }
+  .third-section {
+    padding: 20px 40px;
+  }
+  .third-section h4 {
+    padding: 0px;
+    font-size: 30px;
+  }
+  .card1-content h6,
+  .card2-content h6,
+  .card3-content h6,
+  .card4-content h6 {
+    font-size: 20px;
+  }
+  .card1-content p,
+  .card2-content p,
+  .card3-content p,
+  .card4-content p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .third-section-cards .card1 img,
+  .card2 img,
+  .card3 img,
+  .card4 img {
+    height: 40px;
+    width: 40px;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    height: 90px;
+    width: 90px;
+  }
+  .card1 .card1-image,
+  .card1-content {
+    padding: 10px 15px;
+  }
+  .card2 .card2-image,
+  .card2-content {
+    padding: 10px 15px;
+  }
+  .card3 .card3-image,
+  .card3-content {
+    padding: 10px 15px;
+  }
+  .card4 .card4-image,
+  .card4-content {
+    padding: 10px 15px;
+  }
+  .free-btn {
+    display: block;
+    padding: 15px 25px;
+    background-color: #7030cc;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 17px;
+  }
+  .f-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  .free-btn:hover {
+    background-color: transparent;
+    color: #7030cc;
+    border: 2px solid #7030cc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .second-section-content li:hover {
+    background-color: #7030cc;
+    color: #ffffff;
+  }
+}
